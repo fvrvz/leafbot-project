@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Leaf-Bot | Digital Assistant</title>
+
+    <!-- UIkit CSS Framework -->
+    <link rel="stylesheet" type="text/css" href="./public/css/uikit/css/uikit.css">
+    <script type="text/javascript" src="./public/css/uikit/js/uikit.js"></script>
+    <script type="text/javascript" src="./public/css/uikit/js/uikit-icons.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./public/images/favicon.png"/>
+
+</head>
+<body>
+
+    <!-- Section for Home-Page -->
+    <section id="firstSec" class="mySec1">
+        <div id="firstPage">
+            <div class="welcomeLeft">
+                <img src="./public/images/logo.png" class="uk-margin-small-right">
+            </div>
+            <div class="welcomeRight">
+                <p class="welcomeT">
+                    <strong>Say: </strong>Go to command page
+                </p>
+                <p class="welcomeText">LeafBot: Digital Assistant</p><br>
+                    <nav uk-navbar class="uk-navbar-container" style="margin-top: -30px;">
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-active">
+                                    <a uk-scroll href="#firstSec" id="home_page">Home</a>
+                                </li>
+                                <li>
+                                    <a uk-scroll href="#secondSec" id="comm_page">Commands</a>
+                                </li>
+                                <li>
+                                    <a uk-scroll href="#thirdSec" id="main_page">LeafBot</a>
+                                </li>
+                            </ul>
+                    </nav>
+                <p class="welcomeCommand">
+                    <strong>Developer:</strong><br>
+                    <table border="0px">
+                        <tr>
+                            <td width="150px">Faraaz Khhan<br><small style="margin-left: 8px;"><a target="_blank" href="https://www.github.com/FaraazKhhan/">Open Github profile</a></small></td>
+                            <td><img width="150px" height="150px" style="border-radius: 75px" src="./public/images/myimage.png"></td>
+                        </tr>
+
+                        <tr>
+                            
+                        </tr>
+                    </table>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- navBar -->
+    <div data-uk-sticky>
+        <nav uk-navbar class="uk-navbar-container">
+            <!-- <div class="uk-navbar-left"> -->
+                <div class="uk-navbar-left" style="padding-left: 70px;">
+                    <img src="./public/images/favicon.png" class="uk-margin-small-right">
+                    <span class="uk-navbar-item uk-logo">LeafBot: Digital Assistant</span>
+                </div>
+                
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a uk-scroll href="#firstSec">Home</a>
+                        </li>
+                        <li class="uk-active">
+                            <a uk-scroll href="#secondSec">Commands</a>
+                        </li>
+                        <li>
+                            <a uk-scroll href="#thirdSec">LeafBot</a>
+                        </li>
+                    </ul>
+                </div>
+            <!-- </div> -->
+        </nav>
+    </div>
+
+    <!-- Section for Command-Page -->
+    <section id="secondSec" class="mySec2">
+        <div id="secondPage">
+            <h2 class="h2nd">Lets Say Any Command, Loudly!</h2>
+            <h4><strong>Note:</strong> In Brackets You Need To Say Your Term</h4>
+            <table border="0px">
+                <tr>
+                    <td>
+                        <ul class="myCommands">
+                            <li>Who Are You? / Tell Me About Yourself / What Is Your Name?</li>
+                            <li>Where Are We?</li>
+                            <li>Open Camera</li>
+                            <li>Weather in (place)</li>
+                            <li>Weather Outside</li>
+                            <li>Distance from (source) to (destination)?</li>
+                            <li>Distance from our location to (destination)</li>
+                            <li>Random News Headline</li>
+                            <li>Random News on (category)&nbsp;<small>ex: Technology, Sports, Business</small></li>
+                            <li>Random News from (channel) <small>for ex: CNN, CNBC, BuzzFeed, Globo</small>.</li>
+                            <li>Give me information about (wikipedia)&nbsp;<small>ex: Smartphone, Bollywood</small></li>
+                            <li>Show me (image) <small>This will show you images</small></li>
+                            <li>What time is it?</li>
+                            <li>How old are you?</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="myCommands2">
+                            <lo><strong>Learning Concept</strong></lo>
+                            <li>Learn (word)&nbsp;<small>for learning</small></li>
+                            <li>What is / Who is / Who are / What are (word)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!-- <button v-scroll-to="'#leafbot'">Click</button> -->
+        </div>
+    </section>
+
+    <div data-uk-sticky>
+        <nav uk-navbar class="uk-navbar-container">
+            <!-- <div class="uk-navbar-left"> -->
+                <div class="uk-navbar-left" style="padding-left: 70px;">
+                    <img src="./public/images/favicon.png" class="uk-margin-small-right">
+                    <span class="uk-navbar-item uk-logo">LeafBot: Digital Assistant</span>
+                </div>
+    
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a uk-scroll href="#firstSec">Home</a>
+                        </li>
+                        <li>
+                            <a uk-scroll href="#secondSec">Commands</a>
+                        </li>
+                        <li class="uk-active">
+                            <a uk-scroll href="#thirdSec">LeafBot</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="uk-navbar-right" style="padding-right: 50px;">
+                    <span id="clearT uk-navbar-item uk-logo">
+                        Say: <strong>Clear</strong>, if the spinner disappears
+                    </span>
+                </div>
+            <!-- </div> -->
+        </nav>
+    </div>
+
+
+    <!-- Section for Main-Page -->
+    <section id="thirdSec">
+        <div id="leafbot">
+            <div align="center" style="margin-top:70px;">
+                <span class="type-element"></span>
+                <div v-show="earthGlobe">
+                    <div id="earth_div"></div>
+                </div>
+                <div v-show="multipleDefinitions">
+                    <ol>
+                        <li v-for="definition in definitions">{{definition}}</li>
+                    </ol>
+                </div>
+                <div align="center" v-show="cameraDiv">
+                    <video id="video" width="640" height="480" autoplay></video>
+                </div>
+
+                <div align="center" v-show="flickrDiv">
+                    <div id="search-results">
+                        <div class="flickr-image" v-for="image in images">
+                            <img  v-img="image.media.m" src="./public/images/loading.gif" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+
+                <div align="center" v-show="wikiDiv">
+                    <div id="wiki-image">
+                        <div class="flickr-image" v-for="image in images.slice(0, 2)">
+                            <img  v-img="image.media.m" src="./public/images/loading.gif" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="arcReactor" v-show="arcReactor">
+                <img id="a1" src="./public/images/8.png"/>
+                <img id="a2" src="./public/images/11_2.png"/>
+                <img id="a3" width="80px" height="80px" style="border-radius: 40px;" src="./public/images/myimage.png"/>
+                <!-- <p id="a3">Leaf_Bot</p> -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- for checking the input -->
+    <div class="nextdiv">
+        <div id="enterText">
+            <form id="leafbot" action="#">
+                <input type="text" name="" id="yourInput" v-on="keydown:addCategory | key 'enter'">
+                <input type="submit" name="submit" id="sub">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // function touchStarted() {
+        //     if (getAudioContext().state !== 'running') {
+        //         getAudioContext().resume();
+        //     }
+        // }
+        window.onload = function(){
+            document.getElementById("sub").click();
+        };
+
+    </script>
+	<!-- annyang! library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <!-- Vue main library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.10"></script>
+    <!-- meSpeak library -->
+    <script type="text/javascript" src="./public/lib/mespeak/mespeak.js"></script>
+    <!-- Typed library -->
+    <script type="text/javascript" src="./public/lib/typed/typed.js"></script>
+    <!-- axios library -->
+    <script type="text/javascript" src="./public/lib/axios/axios.js"></script>
+    <!-- WebGL Earth -->
+    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <!-- commands or main script -->
+    <script type="text/javascript" src="./public/script/main.js"></script>
+
+    
+</body>
+</html>

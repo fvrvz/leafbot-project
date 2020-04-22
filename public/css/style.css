@@ -1,0 +1,348 @@
+@keyframes lightVariation {
+    0% {
+        box-shadow: 0px 0px 100px rgba(231, 236, 241, 0.95);
+    }
+    50% {
+        box-shadow: 0px 0px 50px rgba(231, 236, 241, 0.95);
+    }
+    100% {
+        box-shadow: 0px 0px 100px rgba(231, 236, 241, 0.95);
+    }
+}
+
+@keyframes vibrate {
+    0% {
+        box-shadow: 0px 0px 120px rgba(231, 236, 241, 0.95);
+    }
+    50% {
+        box-shadow: 0px 0px 80px rgba(231, 236, 241, 0.95);
+    }
+    100% {
+        box-shadow: 0px 0px 120px rgba(231, 236, 241, 0.95);
+    }
+}
+
+body {
+    background-color: rgb(1, 31, 51); /*no-repeat fixed 50% 50%; */
+}
+
+h1 {
+    /* margin-top: 10px; */
+    padding-top: 120px;
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    font-family: calibri;
+    color: white; 
+}
+
+.h2nd {
+    padding-top: 120px;
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-weight: bold;
+}
+
+.mySec1 {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.welcomeLeft {
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.welcomeRight {
+    height: 100%;
+    width: 50%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
+.welcomeText {
+    font-size: 50px;
+    /* padding-top: 5%; */
+}
+
+.welcomeT {
+    font-size: 20px;
+    color: rgb(66, 211, 255);
+    padding-top: 20%;
+}
+
+
+.welcomeCommand {
+    font-size: 20px;
+}
+
+.okay {
+    font-size: 25px;
+    font-family: calibri;
+}
+
+.mySec2 {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(0, 100, 100);
+}
+
+.myCommands {
+    color: white;
+    padding-left: 100px;
+    font-style: italic;
+}
+
+.myCommands2 {
+    color: white;
+    padding-left: 100px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#thirdSec {
+    height: 700px;
+    width: 100%;
+}
+
+#leafbot {
+    padding-top: 90px;
+}
+
+#earth_div {
+    width: 400px;
+    height: 400px;
+}
+
+.nextdiv {
+    height: 75px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 400px;
+    background-color: transparent;
+}
+
+#enterText {
+    height: 75px;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+#yourInput{
+    color: #FFF;
+    font-family: calibri;
+    /*display: inline-block;*/
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#search-results {
+  -moz-column-width: 13em;
+  -webkit-column-width: 13em;
+  column-width: 13em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
+  
+  .flickr-image {
+    display: inline-block;
+    margin:  0.25rem;
+    padding:  1rem;
+    width:  100%;
+    background:  #efefef;
+  }
+}
+
+#firstPage {
+    height: 100%;
+    width: 100%;
+}
+
+#secondPage {
+    height: 100%;
+    width: 100%;
+}
+
+#a1 {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+#a2 {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 26px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    -webkit-animation:uspin 15s linear infinite;
+    -moz-animation:uspin 15s linear infinite;
+    animation:uspin 15s linear infinite;
+}
+
+#a3 {
+    font-family: sans-serif;
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: #015780;
+    /* text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 8px #0278af, 0 0 12px #0278af, 0 0 16px #0278af, 0 0 22px #0278af, 0 0 28px #0278af; */
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    margin: 0 auto;
+    /*margin-top: 88px;*/
+    margin-top: 59px;
+    left: 0;
+    right: 0;
+}
+
+#clearT {
+    font-size: 20px;
+    
+}
+
+.arcReactor,
+.arcReactor:before,
+.arcReactor:after {
+    /*animation: lightVariation 3s infinite cubic-bezier(0.57, 0.15, 0.57, 0.95);*/
+    animation: lightVariation 3s infinite;
+    width: 200px;
+    height: 200px;
+    
+}
+    /*border-top-right-radius: 30%;
+    background-color: rgba(231, 236, 241, 0.95);*/
+    /*background-image: url('./data/arc.png');*/
+
+
+.arcReactor:before,
+.arcReactor:after {
+    /*content: '';*/
+    /* position: absolute; */
+}
+
+.arcReactor {
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    margin-top: 60px;
+    /* right: 0;
+    bottom: 0; */
+    left: 0;
+    right: 0;
+}
+
+.arcReactor:before {
+    /*transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);*/
+}
+
+.arcReactor:after {
+    /*transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);*/
+}
+
+.arcReactor:hover,
+.arcReactor:hover:before,
+.arcReactor:hover:after {
+    animation: vibrate .5s infinite /*ease-out*/;
+}
+
+.animateSpeak,
+.animateSpeak:before,
+.animateSpeak:after {
+    animation: vibrate .5s infinite /*ease-out*/;
+}
+
+.type-element {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: calibri;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes uspin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes uspin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes uspin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+ol {
+    display: table;
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 20px;
+}
