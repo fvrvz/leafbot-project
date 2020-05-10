@@ -1,7 +1,13 @@
+# LeafBot: A Chatbot WebApp
+[![HTML5](https://img.shields.io/badge/HTML--5-Markup%20language-brightgreen)](https://en.wikipedia.org/wiki/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS--3-styling-orange)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+[![JavaScript](https://img.shields.io/badge/JavaScript-client--side--scripting-blue)](https://en.wikipedia.org/wiki/JavaScript)
+[![VueJS](https://img.shields.io/badge/VueJS-js--framework-blueviolet)](https://en.wikipedia.org/wiki/Vue.js)
+[![Annyang](https://img.shields.io/badge/annyang-js--speechRecog--lib-red)](https://github.com/TalAter/annyang)
+[![NodeJS](https://img.shields.io/badge/NodeJS-js--server--framework-green)](https://en.wikipedia.org/wiki/Node.js)
 
-![Leafbot: A voice command based WebApp](https://raw.githubusercontent.com/FaraazKhhan/NewChatbotProject/master/banner.jpg)
 
-# LeafBot by FaraazKhhan
+![Leafbot: A voice command based WebApp](https://raw.githubusercontent.com/FaraazKhhan/leafbot-project/master/banner.jpg)
 
 Leafbot is a chatbot which can do some amazing things. I have been working on it since 2019.
 It have some interesting features like:
